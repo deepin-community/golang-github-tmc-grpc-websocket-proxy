@@ -1,0 +1,28 @@
+From: Shengjing Zhu <zhsj@debian.org>
+Date: Thu, 8 Oct 2020 02:16:22 +0800
+Subject: use std context
+
+---
+ wsproxy/websocket_proxy.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/wsproxy/websocket_proxy.go b/wsproxy/websocket_proxy.go
+index 03cc5c6..e770dd6 100644
+--- a/wsproxy/websocket_proxy.go
++++ b/wsproxy/websocket_proxy.go
+@@ -2,6 +2,7 @@ package wsproxy
+ 
+ import (
+ 	"bufio"
++	"context"
+ 	"fmt"
+ 	"io"
+ 	"net/http"
+@@ -10,7 +11,6 @@ import (
+ 
+ 	"github.com/gorilla/websocket"
+ 	"github.com/sirupsen/logrus"
+-	"golang.org/x/net/context"
+ )
+ 
+ // MethodOverrideParam defines the special URL parameter that is translated into the subsequent proxied streaming http request's method.
