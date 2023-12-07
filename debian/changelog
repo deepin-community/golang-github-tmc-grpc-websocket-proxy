@@ -1,5 +1,18 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-tmc-grpc-websocket-proxy (0.0~git20200427.3cfed13-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-tmc-grpc-websocket-proxy-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 24 Nov 2022 17:16:49 +0000
+
+golang-github-tmc-grpc-websocket-proxy (0.0~git20200427.3cfed13-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 24 Oct 2020 15:41:49 +0800
+
+golang-github-tmc-grpc-websocket-proxy (0.0~git20200427.3cfed13-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 08 Oct 2020 02:15:44 +0800
